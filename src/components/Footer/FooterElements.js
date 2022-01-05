@@ -91,5 +91,10 @@ export const FooterIcon = styled(Link)`
   color:#fff;
   padding-left: 1rem;
   text-decoration: none;
+
+  @media screen and (max-width: 820px) {
+    padding-left:0;
+    padding-right: 1rem;
+  }
 `
 

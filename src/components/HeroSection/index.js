@@ -9,7 +9,7 @@ const HeroSection = () => {
   const {height,width} = useWindowDimensions();
   
   return (
-    <HeroContainer id="home" height={height} color="primary" >
+    <HeroContainer id="home" height={height} >
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mov' />
       </HeroBg>

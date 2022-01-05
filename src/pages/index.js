@@ -4,10 +4,12 @@ import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import useWindowDimensions from '../utils/windowDimensions';
+import { HomePageWrapper } from './HomePageElements';
 
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
+
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -17,10 +19,13 @@ const Home = () => {
   
   return (
     <>
-    <Sidebar isOpen={isOpen} toggle={toggle}/>
-    <Navbar toggle={toggle}/>
-    <HeroSection />
-    <Footer />
+      <HomePageWrapper>
+      </HomePageWrapper>
+        <Sidebar isOpen={isOpen} toggle={toggle}/>
+        <Navbar toggle={toggle}/>
+        <HeroSection />
+        <Footer />
+      
     </>
   );
 };
