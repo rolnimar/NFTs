@@ -4,14 +4,16 @@ import { Link as LinkS } from 'react-scroll';
 
 
 export const Nav = styled.nav`
-  background: #000;
+  background: ${({scrollNav}) => (scrollNav ? 'black' : 'transparent')};
   height: 80px;
+  margin-top:-80px;
   display: flex;
   justify-content: center;
   font-size: 1 rem;
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: 0.3s all ease;
 
   @media screen and (max-width: 960px){
     transition: 0.8s all ease;
@@ -41,8 +43,10 @@ export const NavLogo = styled(LinkR)`
 `;
 
 export const MobileIcon = styled.div`
+  visibility: hidden;
 
   @media screen and (max-width: 768px){
+    visibility: visible;
     display: block;
     position: absolute;
     top: 0;
@@ -78,16 +82,9 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  /* transition: 0.1s ease-in-out; */
+  transition: 0.1s ease-in-out;
 
   &.active{
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid white;
   }
-
-  &:hover{
-    border-bottom: 3px solid purple;
-  
-    
-  }
-
 `
