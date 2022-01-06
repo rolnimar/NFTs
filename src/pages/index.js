@@ -15,8 +15,6 @@ const Home = () => {
     setIsOpen(!isOpen);
   }
 
-  
-
 
   return (
     <>
