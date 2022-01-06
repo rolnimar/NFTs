@@ -10,7 +10,7 @@ const InfoSection = ({lightBg,id,topLine,headline,bgcolor}) => {
     <>
       <InfoContainer lightBg={lightBg} id={id} height={height} bgcolor={bgcolor} >
         <InfoWrapper  >
-          <InfoRow>
+          
            
             <TextWrapper>
               <TopLine>
@@ -24,7 +24,7 @@ const InfoSection = ({lightBg,id,topLine,headline,bgcolor}) => {
               </Subtitle>
             </TextWrapper>
             
-          </InfoRow>
+          
         </InfoWrapper>
       </InfoContainer>
 
