@@ -45,6 +45,10 @@ const Navbar = ({toggle}) => {
                             <NavLinks to={homeObjThree.id} activecolor = {homeObjThree.bgcolor}
                             smooth={true} duration={700} spy={true} exact='true' offset={-80} >{homeObjThree.name}</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks to='team'
+                            smooth={true} duration={700} spy={true} exact='true' offset={-80} >Team</NavLinks>
+                        </NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

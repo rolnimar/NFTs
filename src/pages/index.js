@@ -28,7 +28,7 @@ const Home = () => {
         <InfoSection  {...homeObjOne}/>
         <InfoSection  {...homeObjTwo}/>
         <InfoSection  {...homeObjThree}/>
-        <TeamSection />
+        <TeamSection id='team'/>
         <Footer />
         </HomePageWrapper>
     </>

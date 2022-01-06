@@ -6,12 +6,12 @@ import image3 from '../../images/portrait3.jpg'
 import useWindowDimensions from '../../utils/windowDimensions'
 import { TeamContainer, TeamHeading, TeamMemberIcon, TeamMemberImage, TeamMemberInfo, TeamMemberName, TeamMembersWrapper, TeamMemberWrapper, TeamWrapper } from './TeamElements'
 
-const TeamSection = () => {
+const TeamSection = ({id}) => {
   const {height,width} = useWindowDimensions();
 
   return (
     <>
-    <TeamContainer height={height}>
+    <TeamContainer id={id} height={height}>
         
 
       <TeamWrapper>
@@ -47,6 +47,34 @@ const TeamSection = () => {
           <TeamMemberIcon>
             <FaLinkedinIn />
             <FaFacebook />
+          </TeamMemberIcon>
+        </TeamMemberWrapper>
+        <TeamMemberWrapper>
+          <TeamMemberImage src={image3} >
+          </TeamMemberImage>
+          <TeamMemberName>
+            ?
+          </TeamMemberName>
+          <TeamMemberInfo>
+          Passionate about holding hands and xoxo
+          </TeamMemberInfo>
+          <TeamMemberIcon>
+            <FaDiscord />
+            <FaAndroid />
+          </TeamMemberIcon>
+        </TeamMemberWrapper>
+        <TeamMemberWrapper>
+          <TeamMemberImage src={image3} >
+          </TeamMemberImage>
+          <TeamMemberName>
+            ?
+          </TeamMemberName>
+          <TeamMemberInfo>
+          Passionate about holding hands and xoxo
+          </TeamMemberInfo>
+          <TeamMemberIcon>
+            <FaDiscord />
+            <FaAndroid />
           </TeamMemberIcon>
         </TeamMemberWrapper>
         <TeamMemberWrapper>
