@@ -1,7 +1,7 @@
 export const homeObjOne = {
   name: 'What',
   id: 'what',
-  bgcolor: 'yellow',
+  bgcolor: 'cyan',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
@@ -12,7 +12,9 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'prices',
+  name: 'Is',
+  bgcolor: 'orange',
+  id: 'is',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
@@ -23,7 +25,8 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-  id: 'discover',
+  name: 'This',
+  id: 'this',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
