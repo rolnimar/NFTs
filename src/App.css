@@ -6,3 +6,13 @@
   
 }
 
+::-webkit-scrollbar{
+  width: 5px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb{
+  background: darkgray;
+  border-radius: 40px;
+  border: 1px solid black;
+}

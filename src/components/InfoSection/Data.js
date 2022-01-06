@@ -25,12 +25,13 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
+  bgcolor: 'cyan',
   name: 'This',
   id: 'this',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
-  topLine: 'Whatever',
+  topLine: 'asd',
   headline: 'I\'m so cool',
   description: 'what the hell is happening'
 

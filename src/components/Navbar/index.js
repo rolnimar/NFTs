@@ -34,15 +34,15 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to={homeObjOne.id} activeColor = {homeObjOne.bgcolor}
+                            <NavLinks to={homeObjOne.id} activecolor = {homeObjOne.bgcolor}
                             smooth={true} duration={700} spy={true} exact='true' offset={-80}  >{homeObjOne.name}</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={homeObjTwo.id} activeColor = {homeObjTwo.bgcolor}
+                            <NavLinks to={homeObjTwo.id} activecolor = {homeObjTwo.bgcolor}
                             smooth={true} duration={700} spy={true} exact='true' offset={-80} >{homeObjTwo.name}</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={homeObjThree.id} activeColor = {homeObjThree.bgcolor}
+                            <NavLinks to={homeObjThree.id} activecolor = {homeObjThree.bgcolor}
                             smooth={true} duration={700} spy={true} exact='true' offset={-80} >{homeObjThree.name}</NavLinks>
                         </NavItem>
                     </NavMenu>

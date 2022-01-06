@@ -85,6 +85,6 @@ export const NavLinks = styled(LinkS)`
   transition: 0.1s ease-in-out;
 
   &.active{
-    border-bottom: ${({activeColor}) => (activeColor)} solid 3px; 
+    border-bottom: ${({activecolor}) => (activecolor)} solid 3px; 
   }
 `

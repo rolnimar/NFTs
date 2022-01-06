@@ -6,8 +6,7 @@ import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import { HomePageWrapper } from './HomePageElements';
-
-
+import ScrollAnimation from 'react-animate-on-scroll';
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,10 +16,13 @@ const Home = () => {
   }
 
   
+
+
   return (
     <>
-      <HomePageWrapper>
-      </HomePageWrapper>
+    
+      <HomePageWrapper >
+      
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection />
@@ -28,7 +30,7 @@ const Home = () => {
         <InfoSection  {...homeObjTwo}/>
         <InfoSection  {...homeObjThree}/>
         <Footer />
-      
+        </HomePageWrapper>
     </>
   );
 };
