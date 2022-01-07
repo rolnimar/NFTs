@@ -15,14 +15,15 @@ const Home = () => {
     setIsOpen(!isOpen);
   }
 
-  var web3 = new Web3(new Web3.providers.WebsocketProvider("wss://mainnet.infura.io/ws"));
-  const version = web3.version;
+  
+
+  
+
 
   return (
     <>
       
       <HomePageWrapper >
-      <h1>{version}</h1>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection />
