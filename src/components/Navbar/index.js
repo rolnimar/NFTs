@@ -35,19 +35,19 @@ const Navbar = ({toggle}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks to={homeObjOne.id} activecolor = {homeObjOne.bgcolor}
-                            smooth={true} duration={700} spy={true} exact='true' offset={-80}  >{homeObjOne.name}</NavLinks>
+                            smooth={true} duration={700} spy={true} exact='true' offset={-60}  >{homeObjOne.name}</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to={homeObjTwo.id} activecolor = {homeObjTwo.bgcolor}
-                            smooth={true} duration={700} spy={true} exact='true' offset={-80} >{homeObjTwo.name}</NavLinks>
+                            smooth={true} duration={700} spy={true} exact='true' offset={-60} >{homeObjTwo.name}</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to={homeObjThree.id} activecolor = {homeObjThree.bgcolor}
-                            smooth={true} duration={700} spy={true} exact='true' offset={-80} >{homeObjThree.name}</NavLinks>
+                            smooth={true} duration={700} spy={true} exact='true' offset={-60} >{homeObjThree.name}</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='team'
-                            smooth={true} duration={700} spy={true} exact='true' offset={-80} >Team</NavLinks>
+                            smooth={true} duration={700} spy={true} exact='true' offset={-60} >Team</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

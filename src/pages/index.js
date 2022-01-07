@@ -8,16 +8,16 @@ import Sidebar from '../components/Sidebar'
 import { HomePageWrapper } from './HomePageElements';
 import TeamSection from '../components/TeamSection';
 import Web3 from 'web3';
+import Wallet from '../components/Wallet';
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   }
-
   
 
-  
+
 
 
   return (
@@ -27,6 +27,7 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection />
+        {/* <Wallet /> */}
         <InfoSection  {...homeObjOne}/>
         <InfoSection  {...homeObjTwo}/>
         <InfoSection  {...homeObjThree}/>

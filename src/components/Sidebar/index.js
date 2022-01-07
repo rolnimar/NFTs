@@ -12,16 +12,19 @@ const Sidebar = ({isOpen,toggle}) => {
         <SidebarWrapper>
           <SidebarMenu>
               <SidebarLink to={homeObjOne.id} onClick={toggle}
-              smooth={true} duration={700} spy={true} exact='true' offset={-80}>
+              smooth={true} duration={700} spy={true} exact='true' offset={-79}>
                 {homeObjOne.name}
               </SidebarLink>
               <SidebarLink to={homeObjTwo.id} onClick={toggle}
-              smooth={true} duration={700} spy={true} exact='true' offset={-80}>
+              smooth={true} duration={700} spy={true} exact='true' offset={-79}>
                 {homeObjTwo.name}
               </SidebarLink>
               <SidebarLink to={homeObjThree.id} onClick={toggle}
-              smooth={true} duration={700} spy={true} exact='true' offset={-80}>
+              smooth={true} duration={700} spy={true} exact='true' offset={-79}>
                 {homeObjThree.name}
+              </SidebarLink>
+              <SidebarLink to='team' onClick={toggle}
+                  smooth={true} duration={700} spy={true} exact='true' offset={-79} >Team
               </SidebarLink>
           </SidebarMenu>
         </SidebarWrapper>

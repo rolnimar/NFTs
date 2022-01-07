@@ -12,6 +12,9 @@ export const FooterWrap = styled.div`
   padding-left: 6rem;
   padding-right: 6rem;
   
+  @media screen and (max-width:768px){
+    padding: 2rem;
+  }
 `
 
 export const FooterLinksContainer = styled.div`
@@ -34,8 +37,8 @@ export const FooterLinkItemsLeft = styled.div`
   color:#fff;
 
     @media screen and (max-width:420px){
-      margin:0;
-      padding: 10px;
+      
+      
       width: 100%;
     }
 `

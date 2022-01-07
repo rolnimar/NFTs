@@ -1,5 +1,5 @@
 {
-  "name": "NFT website",
+  "name": "NFTwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "ethers": "^5.5.3",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-custom-scrollbars": "^4.2.1",
@@ -22,7 +23,9 @@
     "react-scroll": "^1.8.4",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2",
-    "web3": "^1.6.1"
+    "web3": "^1.6.1",
+    "postcss": ">=8.2.13",
+    "immer": ">=9.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
