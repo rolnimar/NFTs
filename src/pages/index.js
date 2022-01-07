@@ -7,20 +7,22 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import { HomePageWrapper } from './HomePageElements';
 import TeamSection from '../components/TeamSection';
+import Web3 from 'web3';
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
-
 
   const toggle = () => {
     setIsOpen(!isOpen);
   }
 
+  var web3 = new Web3(new Web3.providers.WebsocketProvider("wss://mainnet.infura.io/ws"));
+  const version = web3.version;
 
   return (
     <>
-    
-      <HomePageWrapper >
       
+      <HomePageWrapper >
+      <h1>{version}</h1>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection />
