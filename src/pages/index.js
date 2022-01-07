@@ -6,7 +6,6 @@ import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import { HomePageWrapper } from './HomePageElements';
-import ScrollAnimation from 'react-animate-on-scroll';
 import TeamSection from '../components/TeamSection';
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);

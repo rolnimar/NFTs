@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { MobileIcon, Nav, NavbarContainer, NavItem, NavLinks, NavLogo, NavMenu } from './NavbarElements';
-import {FaBars, FaLandmark, FaLinux} from 'react-icons/fa';
+import {FaBars, FaLandmark} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll'
 import { homeObjOne, homeObjThree, homeObjTwo } from '../InfoSection/Data';
 

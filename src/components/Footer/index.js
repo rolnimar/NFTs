@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaDiscord, FaFacebook, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { FooterContainer, FooterIcon, FooterLink, FooterLinkItemsLeft, FooterLinkItemsRight, FooterLinksContainer, FooterLinksWrapper, FooterLinkTitle, FooterSocialLinks, FooterWrap } from './FooterElements';
+import { FooterContainer, FooterIcon, FooterLink, FooterLinkItemsLeft, FooterLinkItemsRight, FooterLinksContainer, FooterLinkTitle, FooterSocialLinks, FooterWrap } from './FooterElements';
 
 const Footer = () => {
   return (

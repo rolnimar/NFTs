@@ -1,6 +1,6 @@
 import React from 'react'
 import useWindowDimensions from '../../utils/windowDimensions';
-import { Column1, Heading, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoElements'
+import { Heading, InfoContainer, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoElements'
 
 
 const InfoSection = ({lightBg,id,topLine,headline,bgcolor}) => {
