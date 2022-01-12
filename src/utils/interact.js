@@ -8,7 +8,7 @@ const web3 = createAlchemyWeb3(alchemyKey);
 
 
 const contractABI = require('../contract-abi.json')
-const contractAddress = "0x3915dF6eAD05c8826AB4160C4c5fbd8014bAB52c";
+const contractAddress = "0x02cA74E4f0cd442f0400D4820B29a470fc4b84a8";
 
 export const mintNFT = async (url, name, description) => {
   if (url.trim() === "" || (name.trim() === "" || description.trim() === "")) { 
@@ -38,7 +38,7 @@ export const mintNFT = async (url, name, description) => {
   const transactionParameters = {
     to: contractAddress, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
-    'data': window.contract.methods.update("hi").encodeABI()//make call to NFT smart contract 
+    'data': window.contract.methods.mintNFT(window.ethereum.selectedAddress,tokenURI).encodeABI()//make call to NFT smart contract 
   };
 
   //sign the transaction via Metamask
